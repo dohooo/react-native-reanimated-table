@@ -1,6 +1,6 @@
 {
   "name": "react-native-reanimated-table",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "📊 A React Native table component using react-native-reanimated and react-native-gesture-handler.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -50,6 +50,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native/eslint-config": "^0.72.2",
@@ -82,6 +84,7 @@
     "react-native-reanimated": ">=3.3"
   },
   "workspaces": [
+    ".",
     "example"
   ],
   "packageManager": "yarn@3.6.1",
