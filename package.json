@@ -30,6 +30,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
+    "postinstall": "yarn clean && yarn prepare",
     "prepare": "bob build",
     "release": "release-it"
   },
