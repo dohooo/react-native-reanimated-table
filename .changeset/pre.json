@@ -4,5 +4,7 @@
   "initialVersions": {
     "react-native-reanimated-table": "0.0.3"
   },
-  "changesets": []
+  "changesets": [
+    "cyan-mugs-hang"
+  ]
 }
