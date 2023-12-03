@@ -68,7 +68,8 @@ android/keystores/debug.keystore
 !.yarn/sdks
 !.yarn/versions
 
-# Example Yarn
+# Example
+example/web-build
 example/.yarn/*
 !example/.yarn/patches
 !example/.yarn/plugins
