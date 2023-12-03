@@ -1,5 +1,11 @@
 # react-native-reanimated-table
 
+## 0.2.0-alpha.0
+
+### Minor Changes
+
+- [#7](https://github.com/dohooo/react-native-reanimated-table/pull/7) [`6042966`](https://github.com/dohooo/react-native-reanimated-table/commit/60429665d55b7219046f0cc0f75d7a1a6051707d) Thanks [@dohooo](https://github.com/dohooo)! - chore: alpha bump
+
 ## 0.1.0
 
 ### Minor Changes
