@@ -26,11 +26,11 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-reanimated-table-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
+    "postinstall": "yarn clean && yarn prepare",
     "prepare": "bob build",
     "release": "release-it"
   },
@@ -83,10 +83,6 @@
     "react-native-gesture-handler": ">=2.12",
     "react-native-reanimated": ">=3.3"
   },
-  "workspaces": [
-    ".",
-    "example"
-  ],
   "packageManager": "yarn@3.6.1",
   "engines": {
     "node": ">= 18.0.0"
